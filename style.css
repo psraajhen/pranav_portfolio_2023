@@ -237,11 +237,11 @@ section {
   color: #fff;
   background-color: #007bff;
   border: #007bff 0.1rem solid;
-  cursor:pointer;
-}
+  }
 
 .btn-color-1:hover,
-.btn-color-2:hover {
+.btn-color-2:hover,
+.btn-primary {
   cursor: pointer;
 }
 
