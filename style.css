@@ -308,6 +308,12 @@ section {
   height: 80%;
 }
 
+#ongoing events
+.ongoing-events-container {
+    margin: 1px; /* You can adjust the margin value as needed */
+    padding: 0;
+}
+
 .section__pic-container {
   height: 400px;
   width: 400px;
