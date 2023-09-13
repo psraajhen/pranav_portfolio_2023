@@ -455,5 +455,7 @@ footer p {
 }
 #ongoing-events
 .ongoing-learn-more {
+  display:flex;
+  width: fit-content;
   margin: 1rem; /* Add the margin you want */
 }
