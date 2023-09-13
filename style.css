@@ -308,10 +308,7 @@ section {
   height: 80%;
 }
 
-#ongoing-events
-.ongoing-events-container {
-   margin: 1rem; 
-}
+
 
 .section__pic-container {
   height: 400px;
@@ -455,4 +452,8 @@ footer {
 
 footer p {
   text-align: center;
+}
+#ongoing-events
+.ongoing-learn-more {
+  margin: 1rem; /* Add the margin you want */
 }
