@@ -308,9 +308,9 @@ section {
   height: 80%;
 }
 
-#ongoing events
+
 .ongoing-events-container {
-    margin: 1px; /* You can adjust the margin value as needed */
+    margin: 1; /* You can adjust the margin value as needed */
     padding: 0;
 }
 
