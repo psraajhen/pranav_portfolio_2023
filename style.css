@@ -233,6 +233,11 @@ section {
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
 }
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border: #007bff 0.1rem solid;
+}
 
 .btn-color-1:hover,
 .btn-color-2:hover {
