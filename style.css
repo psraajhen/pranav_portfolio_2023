@@ -197,6 +197,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  white-space: nowrap;
 }
 
 #socials-container {
