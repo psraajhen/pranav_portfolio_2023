@@ -195,14 +195,15 @@ section {
 }
 
 .nameWithTitle {
+  display: flex;
   white-space: nowrap;
+ text-align: center;
 }
 .name {
-  font-size: 3rem;
-  text-align: center;
-}
-.title {
   font-size: 2rem;
+ }
+.title {
+  font-size: 3rem;
   text-align: center;
   }
 
