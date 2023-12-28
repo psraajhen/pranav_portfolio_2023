@@ -194,11 +194,17 @@ section {
   margin-bottom: 1rem;
 }
 
-.title {
-  font-size: 3rem;
-  text-align: center;
+.nameWithTitle {
   white-space: nowrap;
 }
+.name {
+  font-size: 3rem;
+  text-align: center;
+}
+.title {
+  font-size: 2rem;
+  text-align: center;
+  }
 
 #socials-container {
   display: flex;
