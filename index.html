@@ -15,7 +15,6 @@
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#ongoing-events">Event</a></li>
-	  <li><a href="#Thesis">Thesis</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -32,8 +31,6 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#ongoing-events" onclick="toggleMenu()">Events</a></li>
-	  <li><a href="#Thesis" onclick="toggleMenu()">Thesis</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -46,12 +43,14 @@
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-      <!-- <h1 class="title">Pranav Sree Rajhen B.E., M.Sc.</h1>  -->
-        <div class="nameWithTitle">
-	<h1 class="title">Pranav Sree Rajhen</h1>
-	<p class="name">B.E., M.Sc.</p>
-</div>
-        <p class="section__text__p2">Master of Optical Technologies </p>
+        <style>
+	  .title {
+    	white-space: nowrap;
+ 	 }
+	</style>
+	<h1 class="title">Pranav Sree Rajhen B.E., M.Sc.</h1>
+        
+        <p class="section__text__p2">Master Of Optical Technologies</p>
         <div class="btn-container">
           <button
             class="btn btn-primary"
@@ -147,36 +146,40 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="location.href='./#ongoing-events'"
       />
     </section>
-    <section id="Thesis">
+    <section id="ongoing-events">
   <p class="section__text__p1">Check Out My</p>
-  <h1 class="title">Master Thesis</h1>
-  <div class="Thesis">
+  <h1 class="title">Ongoing Events</h1>
+  <div class="ongoing-events-container">
     <div class="event">
       <h2 class="event-title">Master's Thesis at Leibniz University Hannover -Head of Optical Technologies (HOT)</h2>
       <p class="event-description">Title: Advancing Melanoma Skin Cancer Diagnostics and Education: Integrating Deep Learning, Generative AI, and Attention Mechanisms for Enhanced Clinical Decision Support.</p>
       <p class="event-idea">Objective: Develop a generative AI framework to create modified dermoscopic image pairs, illustrating malignancy and benign lesions, to educate patients and dermatologists with user interface.</p>
        <p class="event-tools">Tools: Python, Pytorch, Deep Learning</p>
-       <p class="event-date">End Date: December 8, 2023</p>
+       <p class="event-date">End Date: December 7, 2023</p>
+       <p class="event-grade"><b>Grade: </b> 2.3</p>
    </div>
-    </section>
-    <section id="ongoing-events">
-    <p class="section__text__p1">Check Out My</p>
-    <h1 class="title">Ongoing Events</h1>
-     <div class="ongoing-events-container">
     <div class="event">
       <h2 class="event-title">Student Assistant at Leibniz Universität Hannover - Institut für Umformtechnik und Umformmaschinen (IFUM)</h2>
       <p class="event-description">Task 1: Create a laser scanning system to detect and manage scrap in manufacturing.</p>
       <p class="event-tools">Tools: MatLab, Automationstudio</p>
       <p class="event-description">Task 2: Implement an IoT solution using ESP32 and Node-RED for a series forging production line. </p>
       <p class="event-tools">Tools: Embedded C</p>
-      <p class="event-date">End Date: February 29, 2024</p>
+      <p class="event-date">End Date: February 29, 2024 </p>
      <!-- <a href="https://docs.google.com/document/d/1zWlaDky9pu-8jx1HlLaVcukdVh_Sal5PkRQvEEiVBLA/edit?usp=sharing" class="btn btn-color-2 ongoing-learn-more">Learn More</a> -->
     </div>
     <!-- Add more event entries as needed -->
-  </div>
+   </div>
+ </div>
+</div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
 </section>
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
@@ -304,7 +307,7 @@
                 />
                 <div class="article-exp-body">
                   <h3>Research Internship</h3>
-                  <p>Hannoversches Zentrum für Optische Technologien, Hannover (May 2023 - June 2023)</p>
+                  <p>Hannoversches Zentrum für Optische Technologien, Leibniz Universität Hannover  (May 2023 - June 2023)</p>
                 </div>
               </article>
                <!-- <article>
@@ -466,8 +469,7 @@
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#ongoing-events">Event</a></li>
-	    <li><a href="#Thesis">Thesis</a></li>
-            <li><a href="#experience">Experience</a></li>
+	    <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
