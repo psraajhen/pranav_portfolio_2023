@@ -475,9 +475,9 @@ footer {
 footer p {
   text-align: center;
 }
-#ongoing-events {
+/* #ongoing-events {
   height: 50vh;
-}
+} */
 /* .ongoing-learn-more {
   display:flex;
   width: fit-content;
