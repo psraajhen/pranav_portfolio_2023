@@ -347,6 +347,13 @@ section {
   margin-bottom: 2rem;
 }
 
+.experience-containers {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
 .experience-details-container {
   display: flex;
   justify-content: center;
@@ -399,6 +406,18 @@ article .icon {
 #projects {
   position: relative;
 /*   margin: 0px; */
+}
+
+.projects-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.project-containers {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .color-container {
