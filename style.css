@@ -289,19 +289,16 @@ section {
 }
 
 .about-containers {
+  display: flex;
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
 .about-details-container {
+  display: flex;
   justify-content: center;
   flex-direction: column;
-}
-
-.about-containers,
-.about-details-container {
-  display: flex;
 }
 
 .about-pic {
