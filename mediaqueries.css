@@ -3,7 +3,7 @@
     height: 83vh;
     margin-bottom: 6rem;
   }
-  .about-containers {
+  .about-containers, .experience-containers, .project-containers {
     flex-wrap: wrap;
   }
   #contact,
