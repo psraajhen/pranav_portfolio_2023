@@ -20,7 +20,8 @@
     display: flex;
   }
   #experience,
-  .experience-details-container {
+  .experience-details-container,
+  .projects-details-container {
     margin-top: 2rem;
   }
   #profile,
